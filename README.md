@@ -1,12 +1,14 @@
 # Orange Boka Media
 
-A lightweight, mobile-first website built with HTML, CSS and JavaScript. No dependencies or build step.
+A lightweight, mobile-first website built with HTML, CSS and JavaScript. The website files live at the repository root.
 
 ## Preview
 
 Run `npm run dev` from this directory and open http://127.0.0.1:4173.
 
-The deployable site is `dist/`. Edit content in `dist/index.html`, styles in `dist/styles.css`, and interactions in `dist/app.js`.
+Edit the pages here: `index.html`, `music.html`, `artist.html`, `services.html`, `pricing.html`, and `contact.html`. Shared styling is in `styles.css`; interactions are in `app.js`; logo files are in `assets/`.
+
+Run `npm run build` to generate `dist/` for the existing Sites deployment. Generated files are not committed to GitHub.
 
 ## Design and behavior
 

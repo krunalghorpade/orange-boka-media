@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "python3 -m http.server 4173 --bind 127.0.0.1 --directory dist",
-    "check": "node --check dist/app.js"
+    "dev": "python3 -m http.server 4173 --bind 127.0.0.1 --directory .",
+    "build": "node scripts/build.mjs",
+    "check": "node --check app.js"
   }
 }
